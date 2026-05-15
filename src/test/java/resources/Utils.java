@@ -29,7 +29,6 @@ public class Utils {
 				 .addFilter(RequestLoggingFilter.logRequestTo(log))
 				 .addFilter(ResponseLoggingFilter.logResponseTo(log))
 		.setContentType(ContentType.JSON).build();
-		 return req;
 		}
 		return req;
 		
